@@ -1,0 +1,11 @@
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.csproj.CoreCompileInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.AssemblyInfoInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.AssemblyInfo.cs
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\netcoreapp2.1\WebClient.deps.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\netcoreapp2.1\WebClient.runtimeconfig.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\netcoreapp2.1\WebClient.runtimeconfig.dev.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\netcoreapp2.1\WebClient.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\netcoreapp2.1\WebClient.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\netcoreapp2.1\WebClient.csprojAssemblyReference.cache

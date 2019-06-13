@@ -1,0 +1,14 @@
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\bin\Debug\netcoreapp2.1\PaymentGateway.deps.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\bin\Debug\netcoreapp2.1\PaymentGateway.runtimeconfig.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\bin\Debug\netcoreapp2.1\PaymentGateway.runtimeconfig.dev.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\bin\Debug\netcoreapp2.1\PaymentGateway.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\bin\Debug\netcoreapp2.1\PaymentGateway.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.csproj.CoreCompileInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.RazorAssemblyInfo.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.RazorAssemblyInfo.cs
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.AssemblyInfoInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.AssemblyInfo.cs
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.RazorTargetAssemblyInfo.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\PaymentGateway\obj\Debug\netcoreapp2.1\PaymentGateway.csprojAssemblyReference.cache

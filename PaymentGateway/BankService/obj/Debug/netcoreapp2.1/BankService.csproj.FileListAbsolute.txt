@@ -1,0 +1,8 @@
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\bin\Debug\netcoreapp2.1\BankService.deps.json
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\bin\Debug\netcoreapp2.1\BankService.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\bin\Debug\netcoreapp2.1\BankService.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\obj\Debug\netcoreapp2.1\BankService.csproj.CoreCompileInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\obj\Debug\netcoreapp2.1\BankService.AssemblyInfoInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\obj\Debug\netcoreapp2.1\BankService.AssemblyInfo.cs
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\obj\Debug\netcoreapp2.1\BankService.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\BankService\obj\Debug\netcoreapp2.1\BankService.pdb

@@ -1,0 +1,15 @@
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\WebClient.exe.config
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\WebClient.exe
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\WebClient.pdb
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\Newtonsoft.Json.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\System.Net.Http.Extensions.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\System.Net.Http.Formatting.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\bin\Debug\net461\System.Net.Http.Primitives.dll
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.csprojAssemblyReference.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.exe.config
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.csproj.CoreCompileInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.AssemblyInfoInputs.cache
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.AssemblyInfo.cs
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.csproj.CopyComplete
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.exe
+C:\Priya\CSharp\Programs\PaymentGateway\PaymentGateway\WebClient\obj\Debug\net461\WebClient.pdb
