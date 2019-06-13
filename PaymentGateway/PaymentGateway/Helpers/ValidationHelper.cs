@@ -24,30 +24,34 @@ namespace PaymentGateway.Helpers
             Int32.TryParse(pymt.CardExpiry.Substring(5), out month);
             return pymt;
         }
-        public static bool IsValidRequest(IPayment pymt)
+        public static bool IsValidRequest(IPayment pymt, out string msg)
         {
             // Checks if the data is complete and card numbers are specified length, and the card has not expired
             if (String.IsNullOrEmpty(pymt.Uid))
             {
-                loggerDebug.Log(LogLevel.Error, "UID Not Provided");
+                msg = "UID Not Provided";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if (String.IsNullOrEmpty(pymt.CardNumber))
             {
-                loggerDebug.Log(LogLevel.Error, "Card Number Not Provided");
+                msg = "Card Number Not Provided";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if (String.IsNullOrEmpty(pymt.CardCvv))
             {
-                loggerDebug.Log(LogLevel.Error, "Card Cvv Not Provided");
+                msg = "Card Cvv Not Provided";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if(String.IsNullOrEmpty(pymt.Currency))
             {
-                loggerDebug.Log(LogLevel.Error, "Currency Not Provided");
+                msg = "Currency Not Provided";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
@@ -59,41 +63,47 @@ namespace PaymentGateway.Helpers
             Int32.TryParse(pymt.CardExpiry.Substring(5), out month);
             if (month == 0 || year == 0)
             {
-                loggerDebug.Log(LogLevel.Error, "Card expiry format not correct");
+                msg = "Card expiry details not valid";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if ((year < DateTime.Now.Year)||(year == DateTime.Now.Year && month < DateTime.Now.Month))
             {
-                loggerDebug.Log(LogLevel.Error, "Card has expired");
+                msg = "Card has expired";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
                 
             if (pymt.Amount <= 0)
             {
-                loggerDebug.Log(LogLevel.Error, "Payment Amount should be greater than 0");
+                msg = "Payment Amount should be greater than 0";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if (pymt.CardNumber.Length != 16)
             {
-                loggerDebug.Log(LogLevel.Error, "Card number should be 16 digits");
+                msg = "Card number should be 16 digits";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             if(pymt.CardCvv.Length != 3)
             {
-                loggerDebug.Log(LogLevel.Error, "Card Cvv should be 3 digits");
+                msg = "Card Cvv should be 3 digits";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
 
             pymt.Currency.Trim();
             if (pymt.Currency.Length != 3)
             {
-                loggerDebug.Log(LogLevel.Error, "Payment Currency should be 3 characters");
+                msg = "Payment Currency should be 3 characters";
+                loggerDebug.Log(LogLevel.Error, msg);
                 return false;
             }
-                
+            msg = "Valid Card Details";
             return true;
         }
         #endregion

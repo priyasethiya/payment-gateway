@@ -27,7 +27,7 @@ namespace WebClient.Model
             Console.Write("Enter Uid :");
             Uid = Console.ReadLine();
 
-            Console.WriteLine("Enter Card Number :");
+            Console.WriteLine("Enter Your 16 Digit Card Number Without Spaces :");
             CardNumber = Console.ReadLine();
 
             int mm;

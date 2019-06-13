@@ -13,7 +13,7 @@ namespace WebClient
             int n = -1;
             while(n != 4)
             {
-                Console.WriteLine("\n\nMenu\n1.Make a Payment\n2.Fetch payment using UId\n3.Fetch All Payments\n4.Exit\n");
+                Console.WriteLine("\n\nMenu\n1.Make a Payment\n2.Fetch payment using UId\n3.Fetch All Payments\n4.Exit\nPlease note that while fetching the card number and cvv the details have been encrypted.\n");
                 Console.WriteLine("Enter your choice ");
                 string choice = Console.ReadLine();                
                 Int32.TryParse(choice, out n);
@@ -63,11 +63,14 @@ namespace WebClient
             ResponseDto responseDto = apiService.GetPaymentAsync(uid).Result;
             if (responseDto.ResultCode == 1)
             {
-                if(responseDto.PaymentDetails?.Count > 0)
+                if (responseDto.PaymentDetails?.Count > 0)
+                {
+                    Console.WriteLine("Retrieved the details of uid " + uid);
                     responseDto.PaymentDetails[0].Print();
-                 else
-                    Console.WriteLine("No payments retrieved with uid " + uid);
+                    return;
+                }
             }
+            Console.WriteLine("No payments retrieved with uid " + uid);
         }
 
         static void MakePayment(IPayment pymt)
@@ -76,7 +79,10 @@ namespace WebClient
             if (responseDto.ResultCode == 1)
                 Console.WriteLine("Payment successful uid : " + pymt.Uid);
             else
-                Console.WriteLine("Payment Failed uid : " + pymt.Uid);                
+            {
+                Console.WriteLine("Payment Failed uid : " + pymt.Uid);
+                Console.WriteLine(responseDto.ResultText);
+            }
         }
     }
 }

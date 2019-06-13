@@ -84,13 +84,14 @@ namespace PaymentGateway.Controllers
         public ActionResult<string> Post([FromBody] Payment pymt)
         {
             IPayment payment = ValidationHelper.Parse(pymt);
-            bool valid = ValidationHelper.IsValidRequest(payment);
+            string msg;
+            bool valid = ValidationHelper.IsValidRequest(payment, out msg);
             ResponseData response = new ResponseData();
             if (!valid)
             {
                 response.ResultCode = 0;
-                response.ResultText = "Failed Data Validation";
-                loggerDebug.Log(LogLevel.Error, "Failed Data Validation");
+                response.ResultText = "Failed Data Validation. Message = " + msg;
+                loggerDebug.Log(LogLevel.Error, "Failed Data Validation. Message = " + msg);
                 return Ok(response);
             }
             bool exists = _paymentService.ExistsPayment(payment.Uid);
